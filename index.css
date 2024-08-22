@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #0c0c0f;
+  font-family: "Fira Code", monospace;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #adb5bd; /* Move color styling here */
+  font-size: 1.5rem;
+}
