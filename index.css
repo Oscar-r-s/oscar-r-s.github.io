@@ -12,3 +12,12 @@ body {
   color: #adb5bd; /* Move color styling here */
   font-size: 1.5rem;
 }
+/*Makes scrollbars invisible*/
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.example {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
